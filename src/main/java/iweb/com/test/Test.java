@@ -15,7 +15,7 @@ static {
         //1.调用Class.forName获取
         Class c1 =Class.forName("iweb.com.test.Test");
         //2.利用类对象所对应的类的实例获取
-        Class c2 =new Test().getClass();
+        Class c2   =new Test().getClass();
         //3.使用.class直接获取
         //.class方式获取类信息时候，不会加载静态属性!
         Class c3 = Test.class;
